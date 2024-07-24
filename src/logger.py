@@ -25,13 +25,14 @@ In Python, we use the built-in logging module, which provides a flexible and cus
 • Handler: Responsible for sending log records to a specific location 
 (e.g., file, console, network). • Formatter: Formats and styles the log records, controlling the output format and content.
 
-
 '''
 
 
 
 import logging
+
 import os
+
 from datetime import datetime
 
 LOG_FILE=f"{datetime.now().strftime('%m+__%d_%Y_%H_%M_%S')}.log"
